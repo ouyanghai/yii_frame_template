@@ -1,0 +1,526 @@
+2017/04/15 12:09:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "web".' in D:\wwwroot\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#1 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\yii_frame_template\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/
+---
+2017/04/15 12:18:34 [error] [exception.CException] exception 'CException' with message 'The asset "D:\wwwroot\yii_frame_template\protected\views\layouts/assets" to be published does not exist.' in D:\wwwroot\framework\web\CAssetManager.php:257
+Stack trace:
+#0 D:\wwwroot\yii_frame_template\protected\components\Controller.php(38): CAssetManager->publish('D:\\wwwroot\\yii_...', false, -1, true)
+#1 D:\wwwroot\yii_frame_template\protected\components\Controller.php(27): Controller->publish('app', 'D:\\wwwroot\\yii_...')
+#2 D:\wwwroot\yii_frame_template\protected\components\TopController.php(4): Controller->init()
+#3 D:\wwwroot\yii_frame_template\protected\controllers\WebController.php(4): TopController->init()
+#4 D:\wwwroot\framework\web\CWebApplication.php(281): WebController->init()
+#5 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#6 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#7 D:\wwwroot\yii_frame_template\index.php(13): CApplication->run()
+#8 {main}
+REQUEST_URI=/
+---
+2017/04/15 12:19:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in D:\wwwroot\framework\web\CController.php:483
+Stack trace:
+#0 D:\wwwroot\framework\web\CController.php(270): CController->missingAction('')
+#1 D:\wwwroot\framework\web\CWebApplication.php(282): CController->run('')
+#2 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#3 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\wwwroot\yii_frame_template\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/
+---
+2017/04/15 12:20:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in D:\wwwroot\framework\web\CController.php:483
+Stack trace:
+#0 D:\wwwroot\framework\web\CController.php(270): CController->missingAction('')
+#1 D:\wwwroot\framework\web\CWebApplication.php(282): CController->run('')
+#2 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#3 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\wwwroot\yii_frame_template\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/
+---
+2017/04/15 12:20:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in D:\wwwroot\framework\web\CController.php:483
+Stack trace:
+#0 D:\wwwroot\framework\web\CController.php(270): CController->missingAction('')
+#1 D:\wwwroot\framework\web\CWebApplication.php(282): CController->run('')
+#2 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#3 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\wwwroot\yii_frame_template\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/
+---
+2017/04/15 12:20:57 [error] [exception.CException] exception 'CException' with message 'Property "CWebUser.themes" is not defined.' in D:\wwwroot\framework\base\CComponent.php:130
+Stack trace:
+#0 D:\wwwroot\framework\web\auth\CWebUser.php(140): CComponent->__get('themes')
+#1 D:\wwwroot\yii_frame_template\protected\components\TopController.php(5): CWebUser->__get('themes')
+#2 D:\wwwroot\yii_frame_template\protected\controllers\WebController.php(4): TopController->init()
+#3 D:\wwwroot\framework\web\CWebApplication.php(281): WebController->init()
+#4 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#5 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 D:\wwwroot\yii_frame_template\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/
+---
+2017/04/15 12:21:06 [error] [php] Object of class CWebUser could not be converted to string (D:\wwwroot\yii_frame_template\protected\components\TopController.php:5)
+Stack trace:
+#0 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#1 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\yii_frame_template\index.php(13): CWebApplication->run()
+REQUEST_URI=/
+in D:\wwwroot\yii_frame_template\protected\components\TopController.php (5)
+in D:\wwwroot\yii_frame_template\protected\controllers\WebController.php (4)
+in D:\wwwroot\yii_frame_template\index.php (13)
+2017/04/15 12:25:24 [error] [exception.CException] exception 'CException' with message 'Theme directory "D:\wwwroot\yii_frame_template\protected/themes" does not exist.' in D:\wwwroot\framework\web\CThemeManager.php:110
+Stack trace:
+#0 D:\wwwroot\yii_frame_template\protected\components\TopController.php(7): CThemeManager->setBasePath('D:\\wwwroot\\yii_...')
+#1 D:\wwwroot\yii_frame_template\protected\controllers\WebController.php(5): TopController->init()
+#2 D:\wwwroot\framework\web\CWebApplication.php(281): WebController->init()
+#3 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#4 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#5 D:\wwwroot\yii_frame_template\index.php(13): CApplication->run()
+#6 {main}
+REQUEST_URI=/
+---
+2017/04/15 12:26:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in D:\wwwroot\framework\web\CController.php:483
+Stack trace:
+#0 D:\wwwroot\framework\web\CController.php(270): CController->missingAction('')
+#1 D:\wwwroot\framework\web\CWebApplication.php(282): CController->run('')
+#2 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#3 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\wwwroot\yii_frame_template\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/
+---
+2017/04/15 12:26:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in D:\wwwroot\framework\web\CController.php:483
+Stack trace:
+#0 D:\wwwroot\framework\web\CController.php(270): CController->missingAction('')
+#1 D:\wwwroot\framework\web\CWebApplication.php(282): CController->run('')
+#2 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#3 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\wwwroot\yii_frame_template\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/
+---
+2017/04/15 12:28:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in D:\wwwroot\framework\web\CController.php:483
+Stack trace:
+#0 D:\wwwroot\framework\web\CController.php(270): CController->missingAction('')
+#1 D:\wwwroot\framework\web\CWebApplication.php(282): CController->run('')
+#2 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#3 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\wwwroot\yii_frame_template\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/
+---
+2017/04/15 12:29:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in D:\wwwroot\framework\web\CController.php:483
+Stack trace:
+#0 D:\wwwroot\framework\web\CController.php(270): CController->missingAction('')
+#1 D:\wwwroot\framework\web\CWebApplication.php(282): CController->run('')
+#2 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#3 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\wwwroot\yii_frame_template\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/
+---
+2017/04/15 12:29:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in D:\wwwroot\framework\web\CController.php:483
+Stack trace:
+#0 D:\wwwroot\framework\web\CController.php(270): CController->missingAction('')
+#1 D:\wwwroot\framework\web\CWebApplication.php(282): CController->run('')
+#2 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#3 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\wwwroot\yii_frame_template\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/
+---
+2017/04/15 12:29:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in D:\wwwroot\framework\web\CController.php:483
+Stack trace:
+#0 D:\wwwroot\framework\web\CController.php(270): CController->missingAction('')
+#1 D:\wwwroot\framework\web\CWebApplication.php(282): CController->run('')
+#2 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#3 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\wwwroot\yii_frame_template\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/
+---
+2017/04/15 12:29:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in D:\wwwroot\framework\web\CController.php:483
+Stack trace:
+#0 D:\wwwroot\framework\web\CController.php(270): CController->missingAction('')
+#1 D:\wwwroot\framework\web\CWebApplication.php(282): CController->run('')
+#2 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#3 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\wwwroot\yii_frame_template\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/
+---
+2017/04/15 12:29:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in D:\wwwroot\framework\web\CController.php:483
+Stack trace:
+#0 D:\wwwroot\framework\web\CController.php(270): CController->missingAction('')
+#1 D:\wwwroot\framework\web\CWebApplication.php(282): CController->run('')
+#2 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#3 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\wwwroot\yii_frame_template\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/
+---
+2017/04/15 12:29:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in D:\wwwroot\framework\web\CController.php:483
+Stack trace:
+#0 D:\wwwroot\framework\web\CController.php(270): CController->missingAction('')
+#1 D:\wwwroot\framework\web\CWebApplication.php(282): CController->run('')
+#2 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#3 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\wwwroot\yii_frame_template\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/
+---
+2017/04/15 12:29:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in D:\wwwroot\framework\web\CController.php:483
+Stack trace:
+#0 D:\wwwroot\framework\web\CController.php(270): CController->missingAction('')
+#1 D:\wwwroot\framework\web\CWebApplication.php(282): CController->run('')
+#2 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#3 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\wwwroot\yii_frame_template\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/
+---
+2017/04/15 12:30:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in D:\wwwroot\framework\web\CController.php:483
+Stack trace:
+#0 D:\wwwroot\framework\web\CController.php(270): CController->missingAction('')
+#1 D:\wwwroot\framework\web\CWebApplication.php(282): CController->run('')
+#2 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#3 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\wwwroot\yii_frame_template\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/
+---
+2017/04/15 12:30:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in D:\wwwroot\framework\web\CController.php:483
+Stack trace:
+#0 D:\wwwroot\framework\web\CController.php(270): CController->missingAction('')
+#1 D:\wwwroot\framework\web\CWebApplication.php(282): CController->run('')
+#2 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#3 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\wwwroot\yii_frame_template\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/
+---
+2017/04/15 12:30:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in D:\wwwroot\framework\web\CController.php:483
+Stack trace:
+#0 D:\wwwroot\framework\web\CController.php(270): CController->missingAction('')
+#1 D:\wwwroot\framework\web\CWebApplication.php(282): CController->run('')
+#2 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#3 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\wwwroot\yii_frame_template\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/
+---
+2017/04/15 12:30:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in D:\wwwroot\framework\web\CController.php:483
+Stack trace:
+#0 D:\wwwroot\framework\web\CController.php(270): CController->missingAction('')
+#1 D:\wwwroot\framework\web\CWebApplication.php(282): CController->run('')
+#2 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#3 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\wwwroot\yii_frame_template\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/
+---
+2017/04/15 12:30:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in D:\wwwroot\framework\web\CController.php:483
+Stack trace:
+#0 D:\wwwroot\framework\web\CController.php(270): CController->missingAction('')
+#1 D:\wwwroot\framework\web\CWebApplication.php(282): CController->run('')
+#2 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#3 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\wwwroot\yii_frame_template\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/
+---
+2017/04/15 12:30:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in D:\wwwroot\framework\web\CController.php:483
+Stack trace:
+#0 D:\wwwroot\framework\web\CController.php(270): CController->missingAction('')
+#1 D:\wwwroot\framework\web\CWebApplication.php(282): CController->run('')
+#2 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#3 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\wwwroot\yii_frame_template\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/
+---
+2017/04/15 12:32:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in D:\wwwroot\framework\web\CController.php:483
+Stack trace:
+#0 D:\wwwroot\framework\web\CController.php(270): CController->missingAction('')
+#1 D:\wwwroot\framework\web\CWebApplication.php(282): CController->run('')
+#2 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#3 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\wwwroot\yii_frame_template\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/
+---
+2017/04/15 12:32:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in D:\wwwroot\framework\web\CController.php:483
+Stack trace:
+#0 D:\wwwroot\framework\web\CController.php(270): CController->missingAction('')
+#1 D:\wwwroot\framework\web\CWebApplication.php(282): CController->run('')
+#2 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#3 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\wwwroot\yii_frame_template\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/
+---
+2017/04/15 12:32:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in D:\wwwroot\framework\web\CController.php:483
+Stack trace:
+#0 D:\wwwroot\framework\web\CController.php(270): CController->missingAction('')
+#1 D:\wwwroot\framework\web\CWebApplication.php(282): CController->run('')
+#2 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#3 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\wwwroot\yii_frame_template\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/
+---
+2017/04/15 12:32:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in D:\wwwroot\framework\web\CController.php:483
+Stack trace:
+#0 D:\wwwroot\framework\web\CController.php(270): CController->missingAction('')
+#1 D:\wwwroot\framework\web\CWebApplication.php(282): CController->run('')
+#2 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#3 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\wwwroot\yii_frame_template\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/
+---
+2017/04/15 12:32:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in D:\wwwroot\framework\web\CController.php:483
+Stack trace:
+#0 D:\wwwroot\framework\web\CController.php(270): CController->missingAction('')
+#1 D:\wwwroot\framework\web\CWebApplication.php(282): CController->run('')
+#2 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#3 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\wwwroot\yii_frame_template\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/
+---
+2017/04/15 12:32:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in D:\wwwroot\framework\web\CController.php:483
+Stack trace:
+#0 D:\wwwroot\framework\web\CController.php(270): CController->missingAction('')
+#1 D:\wwwroot\framework\web\CWebApplication.php(282): CController->run('')
+#2 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#3 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\wwwroot\yii_frame_template\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/
+---
+2017/04/15 12:32:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in D:\wwwroot\framework\web\CController.php:483
+Stack trace:
+#0 D:\wwwroot\framework\web\CController.php(270): CController->missingAction('')
+#1 D:\wwwroot\framework\web\CWebApplication.php(282): CController->run('')
+#2 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#3 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\wwwroot\yii_frame_template\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/
+---
+2017/04/15 12:32:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in D:\wwwroot\framework\web\CController.php:483
+Stack trace:
+#0 D:\wwwroot\framework\web\CController.php(270): CController->missingAction('')
+#1 D:\wwwroot\framework\web\CWebApplication.php(282): CController->run('')
+#2 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#3 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\wwwroot\yii_frame_template\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/
+---
+2017/04/15 12:32:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in D:\wwwroot\framework\web\CController.php:483
+Stack trace:
+#0 D:\wwwroot\framework\web\CController.php(270): CController->missingAction('')
+#1 D:\wwwroot\framework\web\CWebApplication.php(282): CController->run('')
+#2 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#3 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\wwwroot\yii_frame_template\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/
+---
+2017/04/15 12:32:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in D:\wwwroot\framework\web\CController.php:483
+Stack trace:
+#0 D:\wwwroot\framework\web\CController.php(270): CController->missingAction('')
+#1 D:\wwwroot\framework\web\CWebApplication.php(282): CController->run('')
+#2 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#3 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\wwwroot\yii_frame_template\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/
+---
+2017/04/15 12:32:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in D:\wwwroot\framework\web\CController.php:483
+Stack trace:
+#0 D:\wwwroot\framework\web\CController.php(270): CController->missingAction('')
+#1 D:\wwwroot\framework\web\CWebApplication.php(282): CController->run('')
+#2 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#3 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\wwwroot\yii_frame_template\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/
+---
+2017/04/15 12:32:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in D:\wwwroot\framework\web\CController.php:483
+Stack trace:
+#0 D:\wwwroot\framework\web\CController.php(270): CController->missingAction('')
+#1 D:\wwwroot\framework\web\CWebApplication.php(282): CController->run('')
+#2 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#3 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\wwwroot\yii_frame_template\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/
+---
+2017/04/15 12:32:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in D:\wwwroot\framework\web\CController.php:483
+Stack trace:
+#0 D:\wwwroot\framework\web\CController.php(270): CController->missingAction('')
+#1 D:\wwwroot\framework\web\CWebApplication.php(282): CController->run('')
+#2 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#3 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\wwwroot\yii_frame_template\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/
+---
+2017/04/15 12:34:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in D:\wwwroot\framework\web\CController.php:483
+Stack trace:
+#0 D:\wwwroot\framework\web\CController.php(270): CController->missingAction('')
+#1 D:\wwwroot\framework\web\CWebApplication.php(282): CController->run('')
+#2 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#3 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\wwwroot\yii_frame_template\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/
+---
+2017/04/15 12:34:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in D:\wwwroot\framework\web\CController.php:483
+Stack trace:
+#0 D:\wwwroot\framework\web\CController.php(270): CController->missingAction('')
+#1 D:\wwwroot\framework\web\CWebApplication.php(282): CController->run('')
+#2 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#3 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\wwwroot\yii_frame_template\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/
+---
+2017/04/15 12:34:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in D:\wwwroot\framework\web\CController.php:483
+Stack trace:
+#0 D:\wwwroot\framework\web\CController.php(270): CController->missingAction('')
+#1 D:\wwwroot\framework\web\CWebApplication.php(282): CController->run('')
+#2 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#3 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\wwwroot\yii_frame_template\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/
+---
+2017/04/15 12:34:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in D:\wwwroot\framework\web\CController.php:483
+Stack trace:
+#0 D:\wwwroot\framework\web\CController.php(270): CController->missingAction('')
+#1 D:\wwwroot\framework\web\CWebApplication.php(282): CController->run('')
+#2 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#3 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\wwwroot\yii_frame_template\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/
+---
+2017/04/15 12:34:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in D:\wwwroot\framework\web\CController.php:483
+Stack trace:
+#0 D:\wwwroot\framework\web\CController.php(270): CController->missingAction('')
+#1 D:\wwwroot\framework\web\CWebApplication.php(282): CController->run('')
+#2 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#3 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\wwwroot\yii_frame_template\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/
+---
+2017/04/15 12:36:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in D:\wwwroot\framework\web\CController.php:483
+Stack trace:
+#0 D:\wwwroot\framework\web\CController.php(270): CController->missingAction('')
+#1 D:\wwwroot\framework\web\CWebApplication.php(282): CController->run('')
+#2 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#3 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\wwwroot\yii_frame_template\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/
+---
+2017/04/15 12:36:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in D:\wwwroot\framework\web\CController.php:483
+Stack trace:
+#0 D:\wwwroot\framework\web\CController.php(270): CController->missingAction('')
+#1 D:\wwwroot\framework\web\CWebApplication.php(282): CController->run('')
+#2 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#3 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\wwwroot\yii_frame_template\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/
+---
+2017/04/15 12:37:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in D:\wwwroot\framework\web\CController.php:483
+Stack trace:
+#0 D:\wwwroot\framework\web\CController.php(270): CController->missingAction('')
+#1 D:\wwwroot\framework\web\CWebApplication.php(282): CController->run('')
+#2 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#3 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\wwwroot\yii_frame_template\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/
+---
+2017/04/15 12:37:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in D:\wwwroot\framework\web\CController.php:483
+Stack trace:
+#0 D:\wwwroot\framework\web\CController.php(270): CController->missingAction('')
+#1 D:\wwwroot\framework\web\CWebApplication.php(282): CController->run('')
+#2 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#3 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\wwwroot\yii_frame_template\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/
+---
+2017/04/15 12:37:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in D:\wwwroot\framework\web\CController.php:483
+Stack trace:
+#0 D:\wwwroot\framework\web\CController.php(270): CController->missingAction('')
+#1 D:\wwwroot\framework\web\CWebApplication.php(282): CController->run('')
+#2 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#3 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\wwwroot\yii_frame_template\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/
+---
+2017/04/15 12:37:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in D:\wwwroot\framework\web\CController.php:483
+Stack trace:
+#0 D:\wwwroot\framework\web\CController.php(270): CController->missingAction('')
+#1 D:\wwwroot\framework\web\CWebApplication.php(282): CController->run('')
+#2 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#3 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\wwwroot\yii_frame_template\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/
+---
+2017/04/15 12:42:55 [error] [php] Undefined index: module (D:\wwwroot\yii_frame_template\protected\views\layouts\web.php:7)
+Stack trace:
+#0 D:\wwwroot\framework\web\CController.php(784): WebController->renderFile()
+#1 D:\wwwroot\yii_frame_template\protected\controllers\WebController.php(9): WebController->render()
+#2 D:\wwwroot\framework\web\actions\CInlineAction.php(49): WebController->actionIndex()
+#3 D:\wwwroot\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 D:\wwwroot\framework\web\CController.php(286): WebController->runAction()
+#5 D:\wwwroot\framework\web\CController.php(265): WebController->runActionWithFilters()
+#6 D:\wwwroot\framework\web\CWebApplication.php(282): WebController->run()
+#7 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#8 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#9 D:\wwwroot\yii_frame_template\index.php(13): CWebApplication->run()
+REQUEST_URI=/
+in D:\wwwroot\yii_frame_template\protected\views\layouts\web.php (7)
+in D:\wwwroot\yii_frame_template\protected\controllers\WebController.php (9)
+in D:\wwwroot\yii_frame_template\index.php (13)
+2017/04/15 12:46:55 [error] [php] Undefined index: module (D:\wwwroot\yii_frame_template\protected\views\layouts\web.php:7)
+Stack trace:
+#0 D:\wwwroot\framework\web\CController.php(784): WebController->renderFile()
+#1 D:\wwwroot\yii_frame_template\protected\controllers\WebController.php(9): WebController->render()
+#2 D:\wwwroot\framework\web\actions\CInlineAction.php(49): WebController->actionIndex()
+#3 D:\wwwroot\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 D:\wwwroot\framework\web\CController.php(286): WebController->runAction()
+#5 D:\wwwroot\framework\web\CController.php(265): WebController->runActionWithFilters()
+#6 D:\wwwroot\framework\web\CWebApplication.php(282): WebController->run()
+#7 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#8 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#9 D:\wwwroot\yii_frame_template\index.php(13): CWebApplication->run()
+REQUEST_URI=/
+in D:\wwwroot\yii_frame_template\protected\views\layouts\web.php (7)
+in D:\wwwroot\yii_frame_template\protected\controllers\WebController.php (9)
+in D:\wwwroot\yii_frame_template\index.php (13)
+2017/04/15 14:30:26 [error] [exception.CException] exception 'CException' with message 'Property "CUrlManager.enablePrettyUrl" is not defined.' in D:\wwwroot\framework\base\CComponent.php:173
+Stack trace:
+#0 D:\wwwroot\framework\YiiBase.php(220): CComponent->__set('enablePrettyUrl', true)
+#1 D:\wwwroot\framework\base\CModule.php(386): YiiBase::createComponent(Array)
+#2 D:\wwwroot\framework\base\CApplication.php(510): CModule->getComponent('urlManager')
+#3 D:\wwwroot\framework\web\CWebApplication.php(140): CApplication->getUrlManager()
+#4 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#5 D:\wwwroot\yii_frame_template\index.php(13): CApplication->run()
+#6 {main}
+REQUEST_URI=/index.php?web
+---
