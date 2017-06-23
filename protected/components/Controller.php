@@ -86,8 +86,11 @@ class Controller extends CController
 	public $breadcrumbs=array();
 
 	public function filterAuth($filterChain){
-		if(Yii::app()->user->isGuest || (isset(Yii::app()->session['level']) && Yii::app()->session['level'] < 3)){
-			$this->redirect(Yii::app()->createUrl('admin/main/login'));
+		
+		if(Yii::app()->user->isGuest ){
+			$url = Yii::app()->createAbsoluteUrl(Yii::app()->user->loginUrl);
+			Yii::app()->getRequest()->redirect($url);
+			return false;
 		}else{
 		}
 		$filterChain->run();

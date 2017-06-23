@@ -524,3 +524,181 @@ Stack trace:
 #6 {main}
 REQUEST_URI=/index.php?web
 ---
+2017/06/22 10:32:57 [error] [exception.CException] exception 'CException' with message 'The asset "D:\wwwroot\yii_frame_template\protected\views\layouts/assets" to be published does not exist.' in D:\wwwroot\framework\web\CAssetManager.php:257
+Stack trace:
+#0 D:\wwwroot\yii_frame_template\protected\components\Controller.php(38): CAssetManager->publish('D:\\wwwroot\\yii_...', false, -1, true)
+#1 D:\wwwroot\yii_frame_template\protected\components\Controller.php(27): Controller->publish('app', 'D:\\wwwroot\\yii_...')
+#2 D:\wwwroot\yii_frame_template\protected\components\TopController.php(4): Controller->init()
+#3 D:\wwwroot\yii_frame_template\protected\controllers\WebController.php(4): TopController->init()
+#4 D:\wwwroot\framework\web\CWebApplication.php(281): WebController->init()
+#5 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#6 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#7 D:\wwwroot\yii_frame_template\index.php(13): CApplication->run()
+#8 {main}
+REQUEST_URI=/
+---
+2017/06/22 10:32:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\wwwroot\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\yii_frame_template\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://local.template.com/
+---
+2017/06/22 10:33:45 [error] [exception.CException] exception 'CException' with message 'The asset "D:\wwwroot\yii_frame_template\protected\views\layouts/assets" to be published does not exist.' in D:\wwwroot\framework\web\CAssetManager.php:257
+Stack trace:
+#0 D:\wwwroot\yii_frame_template\protected\components\Controller.php(38): CAssetManager->publish('D:\\wwwroot\\yii_...', false, -1, true)
+#1 D:\wwwroot\yii_frame_template\protected\components\Controller.php(27): Controller->publish('app', 'D:\\wwwroot\\yii_...')
+#2 D:\wwwroot\yii_frame_template\protected\components\TopController.php(4): Controller->init()
+#3 D:\wwwroot\yii_frame_template\protected\controllers\WebController.php(4): TopController->init()
+#4 D:\wwwroot\framework\web\CWebApplication.php(281): WebController->init()
+#5 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#6 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#7 D:\wwwroot\yii_frame_template\index.php(13): CApplication->run()
+#8 {main}
+REQUEST_URI=/
+---
+2017/06/22 10:33:45 [error] [exception.CException] exception 'CException' with message 'The asset "D:\wwwroot\yii_frame_template\protected\views\layouts/assets" to be published does not exist.' in D:\wwwroot\framework\web\CAssetManager.php:257
+Stack trace:
+#0 D:\wwwroot\yii_frame_template\protected\components\Controller.php(38): CAssetManager->publish('D:\\wwwroot\\yii_...', false, -1, true)
+#1 D:\wwwroot\yii_frame_template\protected\components\Controller.php(27): Controller->publish('app', 'D:\\wwwroot\\yii_...')
+#2 D:\wwwroot\yii_frame_template\protected\components\TopController.php(4): Controller->init()
+#3 D:\wwwroot\yii_frame_template\protected\controllers\WebController.php(4): TopController->init()
+#4 D:\wwwroot\framework\web\CWebApplication.php(281): WebController->init()
+#5 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#6 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#7 D:\wwwroot\yii_frame_template\index.php(13): CApplication->run()
+#8 {main}
+REQUEST_URI=/
+---
+2017/06/22 10:33:46 [error] [exception.CException] exception 'CException' with message 'The asset "D:\wwwroot\yii_frame_template\protected\views\layouts/assets" to be published does not exist.' in D:\wwwroot\framework\web\CAssetManager.php:257
+Stack trace:
+#0 D:\wwwroot\yii_frame_template\protected\components\Controller.php(38): CAssetManager->publish('D:\\wwwroot\\yii_...', false, -1, true)
+#1 D:\wwwroot\yii_frame_template\protected\components\Controller.php(27): Controller->publish('app', 'D:\\wwwroot\\yii_...')
+#2 D:\wwwroot\yii_frame_template\protected\components\TopController.php(4): Controller->init()
+#3 D:\wwwroot\yii_frame_template\protected\controllers\WebController.php(4): TopController->init()
+#4 D:\wwwroot\framework\web\CWebApplication.php(281): WebController->init()
+#5 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#6 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#7 D:\wwwroot\yii_frame_template\index.php(13): CApplication->run()
+#8 {main}
+REQUEST_URI=/
+---
+2017/06/22 10:33:46 [error] [exception.CException] exception 'CException' with message 'The asset "D:\wwwroot\yii_frame_template\protected\views\layouts/assets" to be published does not exist.' in D:\wwwroot\framework\web\CAssetManager.php:257
+Stack trace:
+#0 D:\wwwroot\yii_frame_template\protected\components\Controller.php(38): CAssetManager->publish('D:\\wwwroot\\yii_...', false, -1, true)
+#1 D:\wwwroot\yii_frame_template\protected\components\Controller.php(27): Controller->publish('app', 'D:\\wwwroot\\yii_...')
+#2 D:\wwwroot\yii_frame_template\protected\components\TopController.php(4): Controller->init()
+#3 D:\wwwroot\yii_frame_template\protected\controllers\WebController.php(4): TopController->init()
+#4 D:\wwwroot\framework\web\CWebApplication.php(281): WebController->init()
+#5 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#6 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#7 D:\wwwroot\yii_frame_template\index.php(13): CApplication->run()
+#8 {main}
+REQUEST_URI=/
+---
+2017/06/22 10:33:46 [error] [exception.CException] exception 'CException' with message 'The asset "D:\wwwroot\yii_frame_template\protected\views\layouts/assets" to be published does not exist.' in D:\wwwroot\framework\web\CAssetManager.php:257
+Stack trace:
+#0 D:\wwwroot\yii_frame_template\protected\components\Controller.php(38): CAssetManager->publish('D:\\wwwroot\\yii_...', false, -1, true)
+#1 D:\wwwroot\yii_frame_template\protected\components\Controller.php(27): Controller->publish('app', 'D:\\wwwroot\\yii_...')
+#2 D:\wwwroot\yii_frame_template\protected\components\TopController.php(4): Controller->init()
+#3 D:\wwwroot\yii_frame_template\protected\controllers\WebController.php(4): TopController->init()
+#4 D:\wwwroot\framework\web\CWebApplication.php(281): WebController->init()
+#5 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#6 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#7 D:\wwwroot\yii_frame_template\index.php(13): CApplication->run()
+#8 {main}
+REQUEST_URI=/
+---
+2017/06/22 10:33:47 [error] [exception.CException] exception 'CException' with message 'The asset "D:\wwwroot\yii_frame_template\protected\views\layouts/assets" to be published does not exist.' in D:\wwwroot\framework\web\CAssetManager.php:257
+Stack trace:
+#0 D:\wwwroot\yii_frame_template\protected\components\Controller.php(38): CAssetManager->publish('D:\\wwwroot\\yii_...', false, -1, true)
+#1 D:\wwwroot\yii_frame_template\protected\components\Controller.php(27): Controller->publish('app', 'D:\\wwwroot\\yii_...')
+#2 D:\wwwroot\yii_frame_template\protected\components\TopController.php(4): Controller->init()
+#3 D:\wwwroot\yii_frame_template\protected\controllers\WebController.php(4): TopController->init()
+#4 D:\wwwroot\framework\web\CWebApplication.php(281): WebController->init()
+#5 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#6 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#7 D:\wwwroot\yii_frame_template\index.php(13): CApplication->run()
+#8 {main}
+REQUEST_URI=/
+---
+2017/06/22 16:14:56 [error] [php] Missing argument 1 for CApplication::createAbsoluteUrl(), called in D:\wwwroot\yii_frame_template\protected\components\Controller.php on line 91 and defined (D:\wwwroot\framework\base\CApplication.php:542)
+Stack trace:
+#0 D:\wwwroot\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#1 D:\wwwroot\framework\web\CController.php(291): CFilterChain->run()
+#2 D:\wwwroot\framework\web\CController.php(265): AdminController->runActionWithFilters()
+#3 D:\wwwroot\framework\web\CWebApplication.php(282): AdminController->run()
+#4 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 D:\wwwroot\yii_frame_template\index.php(13): CWebApplication->run()
+REQUEST_URI=/admin
+in D:\wwwroot\yii_frame_template\protected\components\Controller.php (91)
+in D:\wwwroot\yii_frame_template\index.php (13)
+2017/06/22 16:15:23 [error] [exception.CException] exception 'CException' with message 'Property "AuthController.username" is not defined.' in D:\wwwroot\framework\base\CComponent.php:130
+Stack trace:
+#0 D:\wwwroot\yii_frame_template\protected\controllers\AuthController.php(8): CComponent->__get('username')
+#1 D:\wwwroot\framework\web\actions\CInlineAction.php(49): AuthController->actionLogin()
+#2 D:\wwwroot\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 D:\wwwroot\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#4 D:\wwwroot\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 D:\wwwroot\framework\web\CWebApplication.php(282): CController->run('login')
+#6 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('auth/login')
+#7 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#8 D:\wwwroot\yii_frame_template\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/index.php/auth/login.html
+---
+2017/06/22 16:59:24 [error] [exception.CException] exception 'CException' with message 'CWebApplication and its behaviors do not have a method or closure named "getRequestUrl".' in D:\wwwroot\framework\base\CComponent.php:265
+Stack trace:
+#0 D:\wwwroot\yii_frame_template\protected\controllers\AuthController.php(6): CComponent->__call('getRequestUrl', Array)
+#1 D:\wwwroot\yii_frame_template\protected\controllers\AuthController.php(6): CWebApplication->getRequestUrl()
+#2 D:\wwwroot\framework\web\actions\CInlineAction.php(49): AuthController->actionLogin()
+#3 D:\wwwroot\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\wwwroot\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 D:\wwwroot\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 D:\wwwroot\framework\web\CWebApplication.php(282): CController->run('login')
+#7 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('auth/login')
+#8 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#9 D:\wwwroot\yii_frame_template\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php/auth/login.html
+---
+2017/06/22 17:01:48 [error] [exception.CException] exception 'CException' with message 'Property "CHttpRequest.get" is not defined.' in D:\wwwroot\framework\base\CComponent.php:130
+Stack trace:
+#0 D:\wwwroot\yii_frame_template\protected\controllers\AuthController.php(6): CComponent->__get('get')
+#1 D:\wwwroot\framework\web\actions\CInlineAction.php(49): AuthController->actionLogin()
+#2 D:\wwwroot\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 D:\wwwroot\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#4 D:\wwwroot\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 D:\wwwroot\framework\web\CWebApplication.php(282): CController->run('login')
+#6 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('auth/login')
+#7 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#8 D:\wwwroot\yii_frame_template\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/auth/login.html?action=test
+---
+2017/06/22 17:01:51 [error] [exception.CException] exception 'CException' with message 'Property "CHttpRequest.get" is not defined.' in D:\wwwroot\framework\base\CComponent.php:130
+Stack trace:
+#0 D:\wwwroot\yii_frame_template\protected\controllers\AuthController.php(6): CComponent->__get('get')
+#1 D:\wwwroot\framework\web\actions\CInlineAction.php(49): AuthController->actionLogin()
+#2 D:\wwwroot\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 D:\wwwroot\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#4 D:\wwwroot\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 D:\wwwroot\framework\web\CWebApplication.php(282): CController->run('login')
+#6 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('auth/login')
+#7 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#8 D:\wwwroot\yii_frame_template\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/auth/login.html
+---
+2017/06/23 09:22:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\wwwroot\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\yii_frame_template\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://local.template.com/
+---

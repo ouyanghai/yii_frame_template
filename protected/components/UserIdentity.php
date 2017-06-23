@@ -23,7 +23,6 @@ class UserIdentity extends CUserIdentity
 			$this->errorCode = self::ERROR_USERNAME_INVALID;
 		}
 		else{
-			Yii::app()->session['level'] = $user->level;
 			$this->errorCode=self::ERROR_NONE;
 		}
 		return !$this->errorCode;

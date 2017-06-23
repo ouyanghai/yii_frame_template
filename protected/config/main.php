@@ -35,12 +35,13 @@ return array(
 		'user'=>array(
 			// enable cookie-based authentication
 			'allowAutoLogin'=>true,
+			'loginUrl' => '/auth/login',
 		),
 		// uncomment the following to enable URLs in path-format
 	
 		'urlManager'=>array(
 			'urlFormat'=>'path',
-			//'showScriptName'=>false,
+			'showScriptName'=>false,
 			'urlSuffix'=>'.html',
 			'rules'=>array(
 				//'<controller:\w+>/<action:\w+>'=>'<controller>/<action>',
