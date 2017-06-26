@@ -7,6 +7,8 @@
  */
 class UserIdentity extends CUserIdentity
 {
+
+	private $_info = array();
 	/**
 	 * Authenticates a user.
 	 * The example implementation makes sure if the username and password
@@ -18,13 +20,42 @@ class UserIdentity extends CUserIdentity
 	public function authenticate()
 	{	
 
-		$user = User::model()->find('username=:username and password=:password',array(':username'=>$this->username,':password'=>md5($this->password)));
+		$user = User::model()->find('username=:username and password=:password',array(':username'=>$this->username,':password'=>$this->password));
+		
 		if($user == null){
 			$this->errorCode = self::ERROR_USERNAME_INVALID;
 		}
 		else{
+			$this->setPersistentStates(array('level'=>$user->level)); 
+			$this->set("level",$user->level);
 			$this->errorCode=self::ERROR_NONE;
 		}
 		return !$this->errorCode;
+	}
+
+	// 赋值
+	public function set($name,$value=""){
+		if(!is_array($this->_info)){
+			$this->_info=array();
+		}
+		
+		if(!empty($name) && !empty($value)){
+			$this->_info[$name]=$value;
+		}
+	} 
+
+	public function get($name=""){
+		if(empty($this->_info)){
+			return null;
+		}
+
+		if(empty($name)){
+			return $this->_info;
+		}
+
+		if(!empty($this->_info[$name])){
+			return $this->_info[$name];
+		}
+		
 	}
 }

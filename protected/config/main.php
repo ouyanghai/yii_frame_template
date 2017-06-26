@@ -35,7 +35,7 @@ return array(
 		'user'=>array(
 			// enable cookie-based authentication
 			'allowAutoLogin'=>true,
-			'loginUrl' => '/auth/login',
+			'loginUrl' => '/admin/loginPage',
 		),
 		// uncomment the following to enable URLs in path-format
 	
@@ -59,11 +59,12 @@ return array(
 		// uncomment the following to use a MySQL database
 		
 		'db'=>array(
-			'connectionString' => 'mysql:host=localhost;dbname=testdrive',
+			'connectionString' => 'mysql:host=192.168.1.122;dbname=b2b',
 			'emulatePrepare' => true,
-			'username' => 'root',
-			'password' => 'root',
+			'username' => 'admin',
+			'password' => 'admin',
 			'charset' => 'utf8',
+			'tablePrefix' => 'phone_',
 		),
 		
 		'errorHandler'=>array(

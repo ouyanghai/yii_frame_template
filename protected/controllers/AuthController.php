@@ -3,8 +3,10 @@ class AuthController extends Controller{
 	private $_identity = null;
 
 	public function actionLogin(){
+
 		if(empty($_POST['username']) || empty($_POST['password'])){
-			Yii::app()->getRequest()->redirect("/admin/login");
+			$url = Yii::app()->createAbsoluteUrl(Yii::app()->user->loginUrl);
+			Yii::app()->getRequest()->redirect($url);
 			exit;
 		}
 
@@ -13,11 +15,21 @@ class AuthController extends Controller{
 		}
 
 		if(!$this->_identity->authenticate()){
-			return false;	
+			echo json_encode("error");exit;
 		}
-
+		
 		Yii::app()->user->login($this->_identity,3600);
-		return true;
+
+		$info = $this->_identity->get();
+		foreach ($info as $k => $v) {
+            if (is_scalar($v))
+                Yii::app()->user->setState($k, $v);
+            else
+                unset($info[$k]);
+        }
+
+		//Yii::app()->getRequest()->redirect("/web/index");
+		echo json_encode("ok");exit;
 	}
 }
 

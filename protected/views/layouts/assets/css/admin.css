@@ -1,0 +1,28 @@
+html,body{
+	margin:0;
+	padding:0;
+}
+#login-module{
+	width:30%;
+	height:300px;
+	margin:0 auto;
+	margin-top:10%;
+}
+.input-row{
+	display:inline-block;
+	height:50px;
+	width:100%;
+	line-height: 50px;
+	text-align: center;
+	font-size:25px;
+}
+.input-row input{
+	width:200px;
+	height:40px;
+}
+.input-row #login-btn{
+	width:80px;
+	height:40px;
+	border-radius:5px;
+	font-size:20px;
+}

@@ -14,13 +14,21 @@ class AdminController extends TopController{
 	}
 
 	//登录页面
-	public function actionLogin(){
+	public function actionLoginPage(){
+		$this->layout='//layouts/column3';
 		$this->render('login');
+	}
+
+	public function actionLogout(){
+		// 清空用户之前的登录状态
+        Yii::app()->user->clearStates();
+        Yii::app()->user->logout();
+        echo json_encode("ok");
 	}
 
 	public function filters(){
 		return array(
-			"auth - login"
+			"auth - loginPage"
 		);
 	}
 }
