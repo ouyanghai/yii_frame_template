@@ -76,30 +76,6 @@ $(function(){
 		}
 		
 	});
-	$("#modify-btn").click(function(){
-		var password = $("#login-password").val();
-		var newpass = $("#new-password").val();
-		var repass = $("#re-new-password").val();
-		if(password=='' || newpass==''){
-			return false;
-		}
-		if(newpass!=repass){
-			$("#modify-tip").html("新密码两次输入不一致");
-		}
-		$.ajax({
-			dataType:'json',
-			type:'post',
-			data:{"password":password,"newpass":newpass,"repass":repass},
-			url:'/admin/domodifypass',
-			success:function(msg){
-				$(".modify-form")[0].reset();
-				$("#modify-tip").html(msg);
-			},
-			error:function(msg){
-				alert('网络错误');
-			}
-		});
-	});
 });
 function logout(){
 	$.ajax({

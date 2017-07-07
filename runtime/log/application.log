@@ -1,0 +1,546 @@
+2017/07/05 10:18:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "favicon.ico"。' in D:\wwwroot\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\data\httpdocs\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://local.zhaoqiye.net/
+---
+2017/07/05 16:50:14 [error] [php] Undefined index: label (D:\wwwroot\data\protected\views\layouts\admin.php:28)
+Stack trace:
+#0 D:\wwwroot\framework\web\CController.php(784): AdminController->renderFile()
+#1 D:\wwwroot\data\protected\controllers\AdminController.php(26): AdminController->render()
+#2 D:\wwwroot\framework\web\actions\CInlineAction.php(49): AdminController->actionIndex()
+#3 D:\wwwroot\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 D:\wwwroot\framework\web\filters\CFilterChain.php(133): AdminController->runAction()
+#5 D:\wwwroot\data\protected\components\Controller.php(96): CFilterChain->run()
+#6 D:\wwwroot\framework\web\filters\CInlineFilter.php(58): AdminController->filterAuth()
+#7 D:\wwwroot\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#8 D:\wwwroot\framework\web\CController.php(291): CFilterChain->run()
+#9 D:\wwwroot\framework\web\CController.php(265): AdminController->runActionWithFilters()
+#10 D:\wwwroot\framework\web\CWebApplication.php(282): AdminController->run()
+#11 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#13 D:\wwwroot\data\httpdocs\index.php(13): CWebApplication->run()
+REQUEST_URI=/admin/index
+in D:\wwwroot\data\protected\views\layouts\admin.php (28)
+in D:\wwwroot\data\protected\controllers\AdminController.php (26)
+in D:\wwwroot\data\protected\components\Controller.php (96)
+2017/07/05 16:52:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "recharge" 动作.' in D:\wwwroot\framework\web\CController.php:483
+Stack trace:
+#0 D:\wwwroot\framework\web\CController.php(270): CController->missingAction('recharge')
+#1 D:\wwwroot\framework\web\CWebApplication.php(282): CController->run('recharge')
+#2 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/recharge')
+#3 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\wwwroot\data\httpdocs\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/recharge.html
+HTTP_REFERER=http://local.zhaoqiye.net/admin/index
+---
+2017/07/05 16:52:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "recharge" 动作.' in D:\wwwroot\framework\web\CController.php:483
+Stack trace:
+#0 D:\wwwroot\framework\web\CController.php(270): CController->missingAction('recharge')
+#1 D:\wwwroot\framework\web\CWebApplication.php(282): CController->run('recharge')
+#2 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/recharge')
+#3 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\wwwroot\data\httpdocs\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/recharge.html
+HTTP_REFERER=http://local.zhaoqiye.net/admin/index
+---
+2017/07/05 16:52:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "recharge" 动作.' in D:\wwwroot\framework\web\CController.php:483
+Stack trace:
+#0 D:\wwwroot\framework\web\CController.php(270): CController->missingAction('recharge')
+#1 D:\wwwroot\framework\web\CWebApplication.php(282): CController->run('recharge')
+#2 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/recharge')
+#3 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\wwwroot\data\httpdocs\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/recharge.html
+HTTP_REFERER=http://local.zhaoqiye.net/admin/recharge.html
+---
+2017/07/05 16:53:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "recharge" 动作.' in D:\wwwroot\framework\web\CController.php:483
+Stack trace:
+#0 D:\wwwroot\framework\web\CController.php(270): CController->missingAction('recharge')
+#1 D:\wwwroot\framework\web\CWebApplication.php(282): CController->run('recharge')
+#2 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/recharge')
+#3 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\wwwroot\data\httpdocs\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/recharge.html
+HTTP_REFERER=http://local.zhaoqiye.net/admin/recharge.html
+---
+2017/07/05 16:54:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "recharge" 动作.' in D:\wwwroot\framework\web\CController.php:483
+Stack trace:
+#0 D:\wwwroot\framework\web\CController.php(270): CController->missingAction('recharge')
+#1 D:\wwwroot\framework\web\CWebApplication.php(282): CController->run('recharge')
+#2 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/recharge')
+#3 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\wwwroot\data\httpdocs\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/recharge.html
+HTTP_REFERER=http://local.zhaoqiye.net/admin/recharge.html
+---
+2017/07/05 16:54:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "recharge" 动作.' in D:\wwwroot\framework\web\CController.php:483
+Stack trace:
+#0 D:\wwwroot\framework\web\CController.php(270): CController->missingAction('recharge')
+#1 D:\wwwroot\framework\web\CWebApplication.php(282): CController->run('recharge')
+#2 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/recharge')
+#3 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\wwwroot\data\httpdocs\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/recharge.html
+HTTP_REFERER=http://local.zhaoqiye.net/admin/recharge.html
+---
+2017/07/05 16:54:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "recharge" 动作.' in D:\wwwroot\framework\web\CController.php:483
+Stack trace:
+#0 D:\wwwroot\framework\web\CController.php(270): CController->missingAction('recharge')
+#1 D:\wwwroot\framework\web\CWebApplication.php(282): CController->run('recharge')
+#2 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/recharge')
+#3 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\wwwroot\data\httpdocs\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/recharge.html
+HTTP_REFERER=http://local.zhaoqiye.net/admin/recharge.html
+---
+2017/07/05 16:54:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "recharge" 动作.' in D:\wwwroot\framework\web\CController.php:483
+Stack trace:
+#0 D:\wwwroot\framework\web\CController.php(270): CController->missingAction('recharge')
+#1 D:\wwwroot\framework\web\CWebApplication.php(282): CController->run('recharge')
+#2 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/recharge')
+#3 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\wwwroot\data\httpdocs\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/recharge.html
+HTTP_REFERER=http://local.zhaoqiye.net/admin/recharge.html
+---
+2017/07/05 16:55:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "recharge" 动作.' in D:\wwwroot\framework\web\CController.php:483
+Stack trace:
+#0 D:\wwwroot\framework\web\CController.php(270): CController->missingAction('recharge')
+#1 D:\wwwroot\framework\web\CWebApplication.php(282): CController->run('recharge')
+#2 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/recharge')
+#3 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\wwwroot\data\httpdocs\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/recharge.html
+HTTP_REFERER=http://local.zhaoqiye.net/admin/recharge.html
+---
+2017/07/05 16:56:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "recharge" 动作.' in D:\wwwroot\framework\web\CController.php:483
+Stack trace:
+#0 D:\wwwroot\framework\web\CController.php(270): CController->missingAction('recharge')
+#1 D:\wwwroot\framework\web\CWebApplication.php(282): CController->run('recharge')
+#2 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/recharge')
+#3 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\wwwroot\data\httpdocs\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/recharge.html
+HTTP_REFERER=http://local.zhaoqiye.net/admin/recharge.html
+---
+2017/07/05 16:56:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "recharge" 动作.' in D:\wwwroot\framework\web\CController.php:483
+Stack trace:
+#0 D:\wwwroot\framework\web\CController.php(270): CController->missingAction('recharge')
+#1 D:\wwwroot\framework\web\CWebApplication.php(282): CController->run('recharge')
+#2 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/recharge')
+#3 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\wwwroot\data\httpdocs\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/recharge.html
+HTTP_REFERER=http://local.zhaoqiye.net/admin/recharge.html
+---
+2017/07/05 17:07:40 [error] [php] Undefined variable: val (D:\wwwroot\data\protected\views\layouts\admin.php:34)
+Stack trace:
+#0 D:\wwwroot\framework\web\CController.php(784): AdminController->renderFile()
+#1 D:\wwwroot\data\protected\controllers\AdminController.php(28): AdminController->render()
+#2 D:\wwwroot\framework\web\actions\CInlineAction.php(49): AdminController->actionIndex()
+#3 D:\wwwroot\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 D:\wwwroot\framework\web\filters\CFilterChain.php(133): AdminController->runAction()
+#5 D:\wwwroot\data\protected\components\Controller.php(96): CFilterChain->run()
+#6 D:\wwwroot\framework\web\filters\CInlineFilter.php(58): AdminController->filterAuth()
+#7 D:\wwwroot\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#8 D:\wwwroot\framework\web\CController.php(291): CFilterChain->run()
+#9 D:\wwwroot\framework\web\CController.php(265): AdminController->runActionWithFilters()
+#10 D:\wwwroot\framework\web\CWebApplication.php(282): AdminController->run()
+#11 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#13 D:\wwwroot\data\httpdocs\index.php(13): CWebApplication->run()
+REQUEST_URI=/admin/index
+in D:\wwwroot\data\protected\views\layouts\admin.php (34)
+in D:\wwwroot\data\protected\controllers\AdminController.php (28)
+in D:\wwwroot\data\protected\components\Controller.php (96)
+2017/07/05 17:07:49 [error] [php] Undefined variable: val (D:\wwwroot\data\protected\views\layouts\admin.php:34)
+Stack trace:
+#0 D:\wwwroot\framework\web\CController.php(784): AdminController->renderFile()
+#1 D:\wwwroot\data\protected\controllers\AdminController.php(28): AdminController->render()
+#2 D:\wwwroot\framework\web\actions\CInlineAction.php(49): AdminController->actionIndex()
+#3 D:\wwwroot\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 D:\wwwroot\framework\web\filters\CFilterChain.php(133): AdminController->runAction()
+#5 D:\wwwroot\data\protected\components\Controller.php(96): CFilterChain->run()
+#6 D:\wwwroot\framework\web\filters\CInlineFilter.php(58): AdminController->filterAuth()
+#7 D:\wwwroot\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#8 D:\wwwroot\framework\web\CController.php(291): CFilterChain->run()
+#9 D:\wwwroot\framework\web\CController.php(265): AdminController->runActionWithFilters()
+#10 D:\wwwroot\framework\web\CWebApplication.php(282): AdminController->run()
+#11 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#13 D:\wwwroot\data\httpdocs\index.php(13): CWebApplication->run()
+REQUEST_URI=/admin/index
+in D:\wwwroot\data\protected\views\layouts\admin.php (34)
+in D:\wwwroot\data\protected\controllers\AdminController.php (28)
+in D:\wwwroot\data\protected\components\Controller.php (96)
+2017/07/05 17:07:50 [error] [php] Undefined variable: val (D:\wwwroot\data\protected\views\layouts\admin.php:34)
+Stack trace:
+#0 D:\wwwroot\framework\web\CController.php(784): AdminController->renderFile()
+#1 D:\wwwroot\data\protected\controllers\AdminController.php(28): AdminController->render()
+#2 D:\wwwroot\framework\web\actions\CInlineAction.php(49): AdminController->actionIndex()
+#3 D:\wwwroot\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 D:\wwwroot\framework\web\filters\CFilterChain.php(133): AdminController->runAction()
+#5 D:\wwwroot\data\protected\components\Controller.php(96): CFilterChain->run()
+#6 D:\wwwroot\framework\web\filters\CInlineFilter.php(58): AdminController->filterAuth()
+#7 D:\wwwroot\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#8 D:\wwwroot\framework\web\CController.php(291): CFilterChain->run()
+#9 D:\wwwroot\framework\web\CController.php(265): AdminController->runActionWithFilters()
+#10 D:\wwwroot\framework\web\CWebApplication.php(282): AdminController->run()
+#11 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#13 D:\wwwroot\data\httpdocs\index.php(13): CWebApplication->run()
+REQUEST_URI=/admin/index
+in D:\wwwroot\data\protected\views\layouts\admin.php (34)
+in D:\wwwroot\data\protected\controllers\AdminController.php (28)
+in D:\wwwroot\data\protected\components\Controller.php (96)
+2017/07/05 17:07:50 [error] [php] Undefined variable: val (D:\wwwroot\data\protected\views\layouts\admin.php:34)
+Stack trace:
+#0 D:\wwwroot\framework\web\CController.php(784): AdminController->renderFile()
+#1 D:\wwwroot\data\protected\controllers\AdminController.php(28): AdminController->render()
+#2 D:\wwwroot\framework\web\actions\CInlineAction.php(49): AdminController->actionIndex()
+#3 D:\wwwroot\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 D:\wwwroot\framework\web\filters\CFilterChain.php(133): AdminController->runAction()
+#5 D:\wwwroot\data\protected\components\Controller.php(96): CFilterChain->run()
+#6 D:\wwwroot\framework\web\filters\CInlineFilter.php(58): AdminController->filterAuth()
+#7 D:\wwwroot\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#8 D:\wwwroot\framework\web\CController.php(291): CFilterChain->run()
+#9 D:\wwwroot\framework\web\CController.php(265): AdminController->runActionWithFilters()
+#10 D:\wwwroot\framework\web\CWebApplication.php(282): AdminController->run()
+#11 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#13 D:\wwwroot\data\httpdocs\index.php(13): CWebApplication->run()
+REQUEST_URI=/admin/index
+in D:\wwwroot\data\protected\views\layouts\admin.php (34)
+in D:\wwwroot\data\protected\controllers\AdminController.php (28)
+in D:\wwwroot\data\protected\components\Controller.php (96)
+2017/07/05 17:07:50 [error] [php] Undefined variable: val (D:\wwwroot\data\protected\views\layouts\admin.php:34)
+Stack trace:
+#0 D:\wwwroot\framework\web\CController.php(784): AdminController->renderFile()
+#1 D:\wwwroot\data\protected\controllers\AdminController.php(28): AdminController->render()
+#2 D:\wwwroot\framework\web\actions\CInlineAction.php(49): AdminController->actionIndex()
+#3 D:\wwwroot\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 D:\wwwroot\framework\web\filters\CFilterChain.php(133): AdminController->runAction()
+#5 D:\wwwroot\data\protected\components\Controller.php(96): CFilterChain->run()
+#6 D:\wwwroot\framework\web\filters\CInlineFilter.php(58): AdminController->filterAuth()
+#7 D:\wwwroot\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#8 D:\wwwroot\framework\web\CController.php(291): CFilterChain->run()
+#9 D:\wwwroot\framework\web\CController.php(265): AdminController->runActionWithFilters()
+#10 D:\wwwroot\framework\web\CWebApplication.php(282): AdminController->run()
+#11 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#13 D:\wwwroot\data\httpdocs\index.php(13): CWebApplication->run()
+REQUEST_URI=/admin/index
+in D:\wwwroot\data\protected\views\layouts\admin.php (34)
+in D:\wwwroot\data\protected\controllers\AdminController.php (28)
+in D:\wwwroot\data\protected\components\Controller.php (96)
+2017/07/06 10:37:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "favicon.ico"。' in D:\wwwroot\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\data\httpdocs\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://local.zhaoqiye.net/
+---
+2017/07/06 10:54:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "recharge" 动作.' in D:\wwwroot\framework\web\CController.php:483
+Stack trace:
+#0 D:\wwwroot\framework\web\CController.php(270): CController->missingAction('recharge')
+#1 D:\wwwroot\framework\web\CWebApplication.php(282): CController->run('recharge')
+#2 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/recharge')
+#3 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\wwwroot\data\httpdocs\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/recharge.html
+HTTP_REFERER=http://local.zhaoqiye.net/admin/index.html
+---
+2017/07/06 11:33:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "modifyPass" 动作.' in D:\wwwroot\framework\web\CController.php:483
+Stack trace:
+#0 D:\wwwroot\framework\web\CController.php(270): CController->missingAction('modifyPass')
+#1 D:\wwwroot\framework\web\CWebApplication.php(282): CController->run('modifyPass')
+#2 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/modifyPas...')
+#3 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\wwwroot\data\httpdocs\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/modifyPass.html
+HTTP_REFERER=http://local.zhaoqiye.net/admin/index.html
+---
+2017/07/06 11:40:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "modifyPass" 动作.' in D:\wwwroot\framework\web\CController.php:483
+Stack trace:
+#0 D:\wwwroot\framework\web\CController.php(270): CController->missingAction('modifyPass')
+#1 D:\wwwroot\framework\web\CWebApplication.php(282): CController->run('modifyPass')
+#2 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/modifyPas...')
+#3 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\wwwroot\data\httpdocs\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/modifyPass.html
+HTTP_REFERER=http://local.zhaoqiye.net/admin/index.html
+---
+2017/07/06 11:43:28 [error] [php] Object of class CHttpRequest could not be converted to string (D:\wwwroot\data\protected\controllers\AdminController.php:32)
+Stack trace:
+#0 D:\wwwroot\framework\web\filters\CFilterChain.php(133): AdminController->runAction()
+#1 D:\wwwroot\data\protected\components\Controller.php(96): CFilterChain->run()
+#2 D:\wwwroot\framework\web\filters\CInlineFilter.php(58): AdminController->filterAuth()
+#3 D:\wwwroot\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#4 D:\wwwroot\framework\web\CController.php(291): CFilterChain->run()
+#5 D:\wwwroot\framework\web\CController.php(265): AdminController->runActionWithFilters()
+#6 D:\wwwroot\framework\web\CWebApplication.php(282): AdminController->run()
+#7 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#8 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#9 D:\wwwroot\data\httpdocs\index.php(13): CWebApplication->run()
+REQUEST_URI=/admin/modifyPass.html
+in D:\wwwroot\data\protected\controllers\AdminController.php (32)
+in D:\wwwroot\data\protected\components\Controller.php (96)
+in D:\wwwroot\data\httpdocs\index.php (13)
+2017/07/06 11:48:36 [error] [php] Undefined index: url (D:\wwwroot\data\protected\views\layouts\admin.php:26)
+Stack trace:
+#0 D:\wwwroot\framework\web\CController.php(784): AdminController->renderFile()
+#1 D:\wwwroot\data\protected\controllers\AdminController.php(32): AdminController->render()
+#2 D:\wwwroot\framework\web\actions\CInlineAction.php(49): AdminController->actionModifyPass()
+#3 D:\wwwroot\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 D:\wwwroot\framework\web\filters\CFilterChain.php(133): AdminController->runAction()
+#5 D:\wwwroot\data\protected\components\Controller.php(96): CFilterChain->run()
+#6 D:\wwwroot\framework\web\filters\CInlineFilter.php(58): AdminController->filterAuth()
+#7 D:\wwwroot\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#8 D:\wwwroot\framework\web\CController.php(291): CFilterChain->run()
+#9 D:\wwwroot\framework\web\CController.php(265): AdminController->runActionWithFilters()
+#10 D:\wwwroot\framework\web\CWebApplication.php(282): AdminController->run()
+#11 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#13 D:\wwwroot\data\httpdocs\index.php(13): CWebApplication->run()
+REQUEST_URI=/admin/modifyPass.html
+in D:\wwwroot\data\protected\views\layouts\admin.php (26)
+in D:\wwwroot\data\protected\controllers\AdminController.php (32)
+in D:\wwwroot\data\protected\components\Controller.php (96)
+2017/07/06 12:00:42 [error] [php] Undefined index: url (D:\wwwroot\data\protected\views\layouts\admin.php:26)
+Stack trace:
+#0 D:\wwwroot\framework\web\CController.php(784): AdminController->renderFile()
+#1 D:\wwwroot\data\protected\controllers\AdminController.php(28): AdminController->render()
+#2 D:\wwwroot\framework\web\actions\CInlineAction.php(49): AdminController->actionIndex()
+#3 D:\wwwroot\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 D:\wwwroot\framework\web\filters\CFilterChain.php(133): AdminController->runAction()
+#5 D:\wwwroot\data\protected\components\Controller.php(96): CFilterChain->run()
+#6 D:\wwwroot\framework\web\filters\CInlineFilter.php(58): AdminController->filterAuth()
+#7 D:\wwwroot\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#8 D:\wwwroot\framework\web\CController.php(291): CFilterChain->run()
+#9 D:\wwwroot\framework\web\CController.php(265): AdminController->runActionWithFilters()
+#10 D:\wwwroot\framework\web\CWebApplication.php(282): AdminController->run()
+#11 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#13 D:\wwwroot\data\httpdocs\index.php(13): CWebApplication->run()
+REQUEST_URI=/admin/index.html
+in D:\wwwroot\data\protected\views\layouts\admin.php (26)
+in D:\wwwroot\data\protected\controllers\AdminController.php (28)
+in D:\wwwroot\data\protected\components\Controller.php (96)
+2017/07/06 13:50:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "recharge" 动作.' in D:\wwwroot\framework\web\CController.php:483
+Stack trace:
+#0 D:\wwwroot\framework\web\CController.php(270): CController->missingAction('recharge')
+#1 D:\wwwroot\framework\web\CWebApplication.php(282): CController->run('recharge')
+#2 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/recharge')
+#3 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\wwwroot\data\httpdocs\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/recharge.html
+HTTP_REFERER=http://local.zhaoqiye.net/admin/index.html
+---
+2017/07/06 13:51:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "recharge" 动作.' in D:\wwwroot\framework\web\CController.php:483
+Stack trace:
+#0 D:\wwwroot\framework\web\CController.php(270): CController->missingAction('recharge')
+#1 D:\wwwroot\framework\web\CWebApplication.php(282): CController->run('recharge')
+#2 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/recharge')
+#3 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\wwwroot\data\httpdocs\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/recharge.html
+HTTP_REFERER=http://local.zhaoqiye.net/admin/modifyPass.html
+---
+2017/07/06 14:01:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "recharge" 动作.' in D:\wwwroot\framework\web\CController.php:483
+Stack trace:
+#0 D:\wwwroot\framework\web\CController.php(270): CController->missingAction('recharge')
+#1 D:\wwwroot\framework\web\CWebApplication.php(282): CController->run('recharge')
+#2 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/recharge')
+#3 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\wwwroot\data\httpdocs\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/recharge.html
+HTTP_REFERER=http://local.zhaoqiye.net/admin/modifyPass.html
+---
+2017/07/06 14:02:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "recharge" 动作.' in D:\wwwroot\framework\web\CController.php:483
+Stack trace:
+#0 D:\wwwroot\framework\web\CController.php(270): CController->missingAction('recharge')
+#1 D:\wwwroot\framework\web\CWebApplication.php(282): CController->run('recharge')
+#2 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/recharge')
+#3 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\wwwroot\data\httpdocs\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/recharge.html
+HTTP_REFERER=http://local.zhaoqiye.net/admin/modifyPass.html
+---
+2017/07/06 14:21:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "rechargeList" 动作.' in D:\wwwroot\framework\web\CController.php:483
+Stack trace:
+#0 D:\wwwroot\framework\web\CController.php(270): CController->missingAction('rechargeList')
+#1 D:\wwwroot\framework\web\CWebApplication.php(282): CController->run('rechargeList')
+#2 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/rechargeL...')
+#3 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\wwwroot\data\httpdocs\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/rechargeList.html
+HTTP_REFERER=http://local.zhaoqiye.net/admin/modifyPass.html
+---
+2017/07/06 15:08:28 [error] [exception.CException] exception 'CException' with message 'AdminController and its behaviors do not have a method or closure named "action".' in D:\wwwroot\framework\base\CComponent.php:265
+Stack trace:
+#0 D:\wwwroot\data\protected\controllers\AdminController.php(32): CComponent->__call('action', Array)
+#1 D:\wwwroot\data\protected\controllers\AdminController.php(32): AdminController->action()
+#2 D:\wwwroot\framework\web\actions\CInlineAction.php(49): AdminController->actionModifyPass()
+#3 D:\wwwroot\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\wwwroot\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 D:\wwwroot\data\protected\components\Controller.php(96): CFilterChain->run()
+#6 D:\wwwroot\framework\web\filters\CInlineFilter.php(58): Controller->filterAuth(Object(CFilterChain))
+#7 D:\wwwroot\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#8 D:\wwwroot\framework\web\CController.php(291): CFilterChain->run()
+#9 D:\wwwroot\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 D:\wwwroot\framework\web\CWebApplication.php(282): CController->run('modifyPass')
+#11 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/modifyPas...')
+#12 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#13 D:\wwwroot\data\httpdocs\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/admin/modifyPass.html
+HTTP_REFERER=http://local.zhaoqiye.net/admin/index.html
+---
+2017/07/06 15:08:36 [error] [php] Object of class CInlineAction could not be converted to string (D:\wwwroot\data\protected\controllers\AdminController.php:32)
+Stack trace:
+#0 D:\wwwroot\framework\web\filters\CFilterChain.php(133): AdminController->runAction()
+#1 D:\wwwroot\data\protected\components\Controller.php(96): CFilterChain->run()
+#2 D:\wwwroot\framework\web\filters\CInlineFilter.php(58): AdminController->filterAuth()
+#3 D:\wwwroot\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#4 D:\wwwroot\framework\web\CController.php(291): CFilterChain->run()
+#5 D:\wwwroot\framework\web\CController.php(265): AdminController->runActionWithFilters()
+#6 D:\wwwroot\framework\web\CWebApplication.php(282): AdminController->run()
+#7 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#8 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#9 D:\wwwroot\data\httpdocs\index.php(13): CWebApplication->run()
+REQUEST_URI=/admin/modifyPass.html
+in D:\wwwroot\data\protected\controllers\AdminController.php (32)
+in D:\wwwroot\data\protected\components\Controller.php (96)
+in D:\wwwroot\data\httpdocs\index.php (13)
+2017/07/06 15:09:58 [error] [php] Undefined variable: action (D:\wwwroot\data\protected\controllers\AdminController.php:32)
+Stack trace:
+#0 D:\wwwroot\framework\web\filters\CFilterChain.php(133): AdminController->runAction()
+#1 D:\wwwroot\data\protected\components\Controller.php(96): CFilterChain->run()
+#2 D:\wwwroot\framework\web\filters\CInlineFilter.php(58): AdminController->filterAuth()
+#3 D:\wwwroot\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#4 D:\wwwroot\framework\web\CController.php(291): CFilterChain->run()
+#5 D:\wwwroot\framework\web\CController.php(265): AdminController->runActionWithFilters()
+#6 D:\wwwroot\framework\web\CWebApplication.php(282): AdminController->run()
+#7 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#8 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#9 D:\wwwroot\data\httpdocs\index.php(13): CWebApplication->run()
+REQUEST_URI=/admin/modifyPass.html
+in D:\wwwroot\data\protected\controllers\AdminController.php (32)
+in D:\wwwroot\data\protected\components\Controller.php (96)
+in D:\wwwroot\data\httpdocs\index.php (13)
+2017/07/06 15:17:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "recharge" 动作.' in D:\wwwroot\framework\web\CController.php:483
+Stack trace:
+#0 D:\wwwroot\framework\web\CController.php(270): CController->missingAction('recharge')
+#1 D:\wwwroot\framework\web\CWebApplication.php(282): CController->run('recharge')
+#2 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/recharge')
+#3 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\wwwroot\data\httpdocs\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/recharge.html
+HTTP_REFERER=http://local.zhaoqiye.net/admin/modifyPass.html
+---
+2017/07/06 15:35:50 [error] [php] Undefined variable: val (D:\wwwroot\data\protected\views\layouts\admin.php:33)
+Stack trace:
+#0 D:\wwwroot\framework\web\CController.php(784): AdminController->renderFile()
+#1 D:\wwwroot\data\protected\controllers\AdminController.php(30): AdminController->render()
+#2 D:\wwwroot\framework\web\actions\CInlineAction.php(49): AdminController->actionIndex()
+#3 D:\wwwroot\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 D:\wwwroot\framework\web\filters\CFilterChain.php(133): AdminController->runAction()
+#5 D:\wwwroot\data\protected\components\Controller.php(96): CFilterChain->run()
+#6 D:\wwwroot\framework\web\filters\CInlineFilter.php(58): AdminController->filterAuth()
+#7 D:\wwwroot\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#8 D:\wwwroot\framework\web\CController.php(291): CFilterChain->run()
+#9 D:\wwwroot\framework\web\CController.php(265): AdminController->runActionWithFilters()
+#10 D:\wwwroot\framework\web\CWebApplication.php(282): AdminController->run()
+#11 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#13 D:\wwwroot\data\httpdocs\index.php(13): CWebApplication->run()
+REQUEST_URI=/admin/index.html
+in D:\wwwroot\data\protected\views\layouts\admin.php (33)
+in D:\wwwroot\data\protected\controllers\AdminController.php (30)
+in D:\wwwroot\data\protected\components\Controller.php (96)
+2017/07/06 15:39:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "recharge" 动作.' in D:\wwwroot\framework\web\CController.php:483
+Stack trace:
+#0 D:\wwwroot\framework\web\CController.php(270): CController->missingAction('recharge')
+#1 D:\wwwroot\framework\web\CWebApplication.php(282): CController->run('recharge')
+#2 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/recharge')
+#3 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\wwwroot\data\httpdocs\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/recharge.html
+HTTP_REFERER=http://local.zhaoqiye.net/admin/modifyPass.html
+---
+2017/07/06 16:13:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "recharge" 动作.' in D:\wwwroot\framework\web\CController.php:483
+Stack trace:
+#0 D:\wwwroot\framework\web\CController.php(270): CController->missingAction('recharge')
+#1 D:\wwwroot\framework\web\CWebApplication.php(282): CController->run('recharge')
+#2 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/recharge')
+#3 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\wwwroot\data\httpdocs\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/recharge.html
+HTTP_REFERER=http://local.zhaoqiye.net/admin/index.html
+---
+2017/07/06 16:45:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "favicon.ico"。' in D:\wwwroot\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\data\httpdocs\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://local.zhaoqiye.net/
+---
+2017/07/06 18:14:35 [error] [exception.CException] exception 'CException' with message '属性 "CWebUser.tel" 未被定义.' in D:\wwwroot\framework\base\CComponent.php:130
+Stack trace:
+#0 D:\wwwroot\framework\web\auth\CWebUser.php(140): CComponent->__get('tel')
+#1 D:\wwwroot\data\protected\controllers\AdminController.php(63): CWebUser->__get('tel')
+#2 D:\wwwroot\framework\web\actions\CInlineAction.php(49): AdminController->actionDoModifyPass()
+#3 D:\wwwroot\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\wwwroot\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 D:\wwwroot\data\protected\components\Controller.php(96): CFilterChain->run()
+#6 D:\wwwroot\framework\web\filters\CInlineFilter.php(58): Controller->filterAuth(Object(CFilterChain))
+#7 D:\wwwroot\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#8 D:\wwwroot\framework\web\CController.php(291): CFilterChain->run()
+#9 D:\wwwroot\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 D:\wwwroot\framework\web\CWebApplication.php(282): CController->run('domodifypass')
+#11 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/domodifyp...')
+#12 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#13 D:\wwwroot\data\httpdocs\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/admin/domodifypass
+HTTP_REFERER=http://local.zhaoqiye.net/admin/modifyPass.html
+---
+2017/07/07 09:34:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "favicon.ico"。' in D:\wwwroot\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\data\httpdocs\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://local.zhaoqiye.net/
+---

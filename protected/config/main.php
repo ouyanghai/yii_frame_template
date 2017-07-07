@@ -1,14 +1,18 @@
 <?php
 
+$_root_=dirname(dirname(dirname(__FILE__))).DIRECTORY_SEPARATOR;
 // uncomment the following to define a path alias
 // Yii::setPathOfAlias('local','path/to/local-folder');
 
 // This is the main Web application configuration. Any writable
 // CWebApplication properties can be configured here.
-return array(
-	'basePath'=>dirname(__FILE__).DIRECTORY_SEPARATOR.'..',
-	'name'=>'My Yii Template',
-
+return CMap::mergeArray(
+	array(
+	"basePath"=>$_root_."protected",
+	"language"=>"zh_cn",
+	'name'=>'zhaoqiye',
+	"timezone"=>"Asia/Shanghai",
+	"runtimePath"=>$_root_."runtime",
 	// preloading 'log' component
 	'preload'=>array('log'),
 
@@ -59,7 +63,7 @@ return array(
 		// uncomment the following to use a MySQL database
 		
 		'db'=>array(
-			'connectionString' => 'mysql:host=192.168.1.122;dbname=b2b',
+			'connectionString' => 'mysql:host=mysql;dbname=b2b',
 			'emulatePrepare' => true,
 			'username' => 'admin',
 			'password' => 'admin',
@@ -77,6 +81,9 @@ return array(
 				array(
 					'class'=>'CFileLogRoute',
 					'levels'=>'error, warning',
+					"logPath"=>$_root_."runtime/log",
+                    "maxFileSize"=>5*1024,
+                    "maxLogFiles"=>100,
 				),
 				// uncomment the following to show log messages on web pages
 				/*
@@ -94,4 +101,6 @@ return array(
 		// this is used in contact page
 		'adminEmail'=>'webmaster@example.com',
 	),
+	),
+	require($_root_."private/config/main.php")
 );

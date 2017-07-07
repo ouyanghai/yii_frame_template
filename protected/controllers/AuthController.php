@@ -4,14 +4,16 @@ class AuthController extends Controller{
 
 	public function actionLogin(){
 
-		if(empty($_POST['username']) || empty($_POST['password'])){
+		if(empty($_POST['tel']) || empty($_POST['password'])){
 			$url = Yii::app()->createAbsoluteUrl(Yii::app()->user->loginUrl);
 			Yii::app()->getRequest()->redirect($url);
 			exit;
 		}
 
 		if($this->_identity===null){
-			$this->_identity=new UserIdentity($_POST['username'],$_POST['password']);
+			$this->_identity=new UserIdentity;
+			$this->_identity->tel = $_POST['tel'];
+			$this->_identity->password = $_POST['password'];
 		}
 
 		if(!$this->_identity->authenticate()){
@@ -27,7 +29,7 @@ class AuthController extends Controller{
             else
                 unset($info[$k]);
         }
-
+		
 		//Yii::app()->getRequest()->redirect("/web/index");
 		echo json_encode("ok");exit;
 	}

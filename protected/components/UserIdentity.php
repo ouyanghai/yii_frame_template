@@ -9,6 +9,13 @@ class UserIdentity extends CUserIdentity
 {
 
 	private $_info = array();
+	public $tel,$password;
+
+	// 构造函数
+    public function __construct()
+    {              
+        
+    }
 	/**
 	 * Authenticates a user.
 	 * The example implementation makes sure if the username and password
@@ -20,14 +27,20 @@ class UserIdentity extends CUserIdentity
 	public function authenticate()
 	{	
 
-		$user = User::model()->find('username=:username and password=:password',array(':username'=>$this->username,':password'=>$this->password));
+		$user = User::model()->find('tel=:tel and password=:password',array(':tel'=>$this->tel,':password'=>$this->password));
 		
 		if($user == null){
 			$this->errorCode = self::ERROR_USERNAME_INVALID;
 		}
 		else{
-			$this->setPersistentStates(array('level'=>$user->level)); 
+			//$this->setPersistentStates(array('level'=>$user->level,'nick'=>$user->nick,'deadline'=>$user->deadline)); 
+			//username用有值才能login成功
+			$this->username = $user->nick;
+
+			$this->set("tel",$user->tel);
 			$this->set("level",$user->level);
+			$this->set("nick",$user->nick);
+			$this->set("deadline",$user->deadline);
 			$this->errorCode=self::ERROR_NONE;
 		}
 		return !$this->errorCode;
@@ -39,7 +52,7 @@ class UserIdentity extends CUserIdentity
 			$this->_info=array();
 		}
 		
-		if(!empty($name) && !empty($value)){
+		if($name!='' && $value!=''){
 			$this->_info[$name]=$value;
 		}
 	} 

@@ -2,6 +2,10 @@
 
 class SiteController extends TopController
 {
+	public function init(){
+		parent::init();
+		$this->layout = "//layouts/column3";
+	}
 	/**
 	 * Declares class-based actions.
 	 */
